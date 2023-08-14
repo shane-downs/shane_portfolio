@@ -23,10 +23,10 @@ class Banner extends Component {
     render() {
         return (
             <div className='banner'>
+                <div className='bannerImage'> 
+                    {this.AddImage({image: headshot, altText: 'headshot'})}
+                </div>
                 <h1 className='welcome'>
-                    <div className='bannerImage'>
-                        {this.AddImage({image: headshot, altText: 'headshot'})}
-                    </div>
                     Shane Downs
                 </h1>
                 <h2 className='subtitle'>
@@ -52,7 +52,7 @@ class Banner extends Component {
                         <button className='profileButton'>LinkedIn Profile</button></a>
                     </div>
                 </div>
-                {this.CreateTab({label: 'Projects', className: 'projects_tab'})}
+                
             </div>
         );
     }
