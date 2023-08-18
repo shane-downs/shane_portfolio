@@ -1,0 +1,101 @@
+.projectSection {
+    background-size: cover;
+    background-color: #7bacf0;
+    padding: 70px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.pTitle {
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    line-height: 2;
+    padding: 2rem;
+    margin-top: 10%;
+}
+
+.pThumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.pThumbnail img {
+    width: 600px;
+    height: 500px;
+    border: solid;
+    border-radius: 20px;
+    border-width: thick;
+    border-color: #0056b3;
+}
+
+.pDescription {
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+    padding: 1rem;
+}
+
+.pDate {
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2;
+    font-size: 35px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.githubLink {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  padding: 1rem;
+}
+
+.pGithub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.githubLink:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+.title {
+    color: #333;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-top: 2%;
+    font-size: 5rem;
+    transition: transform 0.3s ease;
+    padding: 10rem;
+}
+
+.title:hover {
+    transform: scale(1.15);
+}

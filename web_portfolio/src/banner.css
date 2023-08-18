@@ -2,7 +2,7 @@
   background-size: cover;
   background-color: #7bacf0;
   text-align: left; 
-  padding: 70px;
+  padding: 8rem;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -43,7 +43,6 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.projects_tab:hover,
 .profileButton:hover,
 .phoneButton:hover,
 .mailButton:hover {
